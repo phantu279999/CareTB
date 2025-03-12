@@ -1,0 +1,50 @@
+/product/service/
+{
+    "code": "S001",
+    "name": "Gói Dịch Vụ VIP",
+    "price": 500,
+    "unit": "Lần",
+    "status": "hoạt động",
+    "content": "Dịch vụ cao cấp",
+    "effect": "Tốt nhất",
+    "sub_services": [2, 3]  // ID của các dịch vụ con
+}
+
+
+/product/materials/
+
+{
+    "code": "M001",
+    "name": "Vật tư A",
+    "origin": "Việt Nam",
+    "quantity": 100,
+    "unit": "Cái",
+    "price": 5000,
+    "status": "Sử dụng",
+    "is_failure": false,
+    "effect": "Tốt",
+    "reason_failure": "Không có",
+    "import_date": "2025-02-26",
+    "maintenances": [
+        {
+            "times": 1,
+            "date": "2025-02-01",
+            "note": "Bảo trì lần 1",
+            "status": "Hoàn thành"
+        },
+        {
+            "times": 2,
+            "date": "2025-03-01",
+            "note": "Bảo trì lần 2",
+            "status": "Chưa hoàn thành"
+        }
+    ],
+    "repair_histories": [
+        {
+            "times": 1,
+            "date": "2025-02-10",
+            "note": "Sửa chữa lần 1",
+            "status": "Hoàn thành"
+        }
+    ]
+}
